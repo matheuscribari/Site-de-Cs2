@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: -1.8px;
+    font-family: 'poppins';
+  }
+  
+body {
+    scrollbar-width: thin;
+    font-family: Stratum2,sans-serif; 
+    overflow-x: hidden;
+  }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+      }
+  
+      ::-webkit-scrollbar-track {
+        background: black;
+      }
+  
+      ::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 5px;
+      }
+  
+      ::-webkit-scrollbar-thumb:hover {
+        background: #191970;
+      }
+      @keyframes scroll {
+        0% {
+          background: #000080;
+        }
+        50% {
+          background: #0000FF;
+        }
+        100% {
+          background: #000080;
+        }
+      }
+  
+      ::-webkit-scrollbar-thumb {
+        animation: scroll 2s infinite; /* duração da animação e repetição infinita */
+      }
+  
+.container {
+      position: relative;
+      animation: slide-in 3s forwards
+  }
+  
+.img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      animation: slide-in 3s forwards;
+      margin: -16.5px;
+      left: 1%;
+  }
+  
+.background-img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      animation: slide-in 2s forwards
+  }
+  
+.logo {
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation: logo-in 1s forwards;
+      height: 300px;
+      width: 500px;
+      border-radius: 100%;
+  }
+
+.login{
+    position: absolute;
+    left:3%;
+    top: 2%;
+    z-index: 1;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    animation: login-in 4s forwards;
+}
+  @keyframes logo-in {
+    0% {
+        transform: translateX(50%);
+    }
+    0% {
+        transform: translateX(010);
+    }
+    0% {
+        transform: translateX(0);
+    }
+}
+@keyframes slide-in{
+    0% {
+        transform: translateX(100%);
+    }
+    2% {
+        transform: translateX(-5%);
+    }
+    0% {
+        transform: translateX(0);
+    }
+}
+@keyframes login-in{
+    2% {
+        transform: translateX(100%);
+    }
+    30% {
+        transform: translateX(-5%);
+    }
+    0% {
+        transform: translateX(0);
+    }
+}
+.wallpaper:last-child{
+  width: 1936px;
+  height: 1080px;
+  position: relative;
+}
+.texto:first-child{
+  position: relative;
+}
+.wallpaper1{
+  background-image: url(https://i.imgur.com/0N0kpq2.png);
+  width: 1970px;
+  height:1080px;
+  background-repeat: no-repeat;
+}
+
+.titulo{
+  font-size: 50px;
+  color: rgba(255,255,255,.9333333333);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 110%;
+  display: block;
+  position: absolute;
+  top: 136%;
+  left: 37%;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  animation: 20s corpo-in forwards;
+}
+.subtitulo{
+  font-size: 50px;
+  color: rgba(255,255,255,.9333333333);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 110%;
+  display: block;
+  position: absolute;
+  top: 143%;
+  left: 38.5%;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  animation: 20s corpo-in forwards;
+
+}
+
+.corpo{
+  font-size: 25px;
+  color: rgba(255,255,255,.9333333333);
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 110%;
+  display: flex;
+  position: absolute;
+  top: 160%;
+  left: 11.5%;
+  align-items: center;
+  justify-content: center;
+  animation: 20s corpo-in forwards;
+}
+@keyframes subtitulo-in{
+  2% {
+      transform: translateY(100%);
+  }
+  30% {
+      transform: translateY(-5%);
+  }
+  0% {
+      transform: translateY(0);
+  }
+}
+@keyframes corpo-in{
+  2% {
+      transform: translateY(100%);
+  }
+  30% {
+      transform: translateY(-5%);
+  }
+  0% {
+      transform: translateY(0);
+  }
+}
+@keyframes titulo-in{
+  2% {
+      transform: translateY(100%);
+  }
+  30% {
+      transform: translateY(-5%);
+  }
+  0% {
+      transform: translateY(0);
+  }
+}
+.wallpaper{
+    background-image: url(https://i.imgur.com/R4mH4U1.png);
+  width: 1920px;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+.beta{
+  position: absolute;
+  top: 2508px;
+  left: 36%;
+  font-size: 50px;
+  color: #ff6600;
+  background-color: #310300;
+  width: 560px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+
+
+

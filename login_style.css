@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: 'poppins';
+}
+body *{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://i.imgur.com/R4mH4U1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login > h1{
+    font-size: 3vw;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 10%;
+}
+.left-login-image{
+    width: 35vw;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+.card-login >h1 {
+    color: #ff6600;
+    font-weight: 800;
+    margin: 0;
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+    color:#ff6600;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield > label{
+    color:#ff6600;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.textfield >input::placeholder{
+    color: #f0ffff94;
+}
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #ff6600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link{
+    color: #ff6600;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    list-style: none;
+    
+}
+.logo{
+    width: 300px;
+    height: 300px;
+
+}
+
+ 
